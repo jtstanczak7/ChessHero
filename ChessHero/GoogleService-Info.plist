@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyC46yub8SH4sRu7JO4Cyc1sgvJdH_pjGS4</string>
+	<key>GCM_SENDER_ID</key>
+	<string>357742018710</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.ChessHero</string>
+	<key>PROJECT_ID</key>
+	<string>chess-hero-c2041</string>
+	<key>STORAGE_BUCKET</key>
+	<string>chess-hero-c2041.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:357742018710:ios:f993beaa734d98ca3f42b7</string>
+</dict>
+</plist>

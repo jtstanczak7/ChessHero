@@ -39,12 +39,12 @@ struct LoginPageView: View {
 
                 Button(action: { // Sign in button
                     // Action for the button
-                    print("Sign in with Apple tapped") // temp
+                    print("Sign in tapped") // temp
                 }) {
                     HStack {
-                        Image(systemName: "applelogo") // Apple logo from SF Symbols
-                            .font(.title)
-                        Text("Sign in with Apple")
+                        //Image(systemName: "applelogo") // Apple logo from SF Symbols
+                            //.font(.title)
+                        Text("Sign in")
                             .foregroundColor(.black)
                             .bold()
                     }
