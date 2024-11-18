@@ -8,10 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		B931CB632BE879040040B9ED /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = B931CB622BE879040040B9ED /* Home.swift */; };
-		B931CB652BE8799C0040B9ED /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B931CB642BE8799C0040B9ED /* GoogleService-Info.plist */; };
-		B931CB662BE879E80040B9ED /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B931CB642BE8799C0040B9ED /* GoogleService-Info.plist */; };
-		B931CB672BE879E90040B9ED /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B931CB642BE8799C0040B9ED /* GoogleService-Info.plist */; };
-		B931CB6A2BE87A700040B9ED /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = B931CB692BE87A700040B9ED /* FirebaseAnalytics */; };
 		B9A551FA2BE5E65C009DA942 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A551F92BE5E65C009DA942 /* Login.swift */; };
 		B9A551FC2BE5F8C5009DA942 /* Track1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B9A551FB2BE5F8C5009DA942 /* Track1.mp3 */; };
 		B9FB74082BE5E258000024B7 /* ChessHeroApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FB74072BE5E258000024B7 /* ChessHeroApp.swift */; };
@@ -42,7 +38,6 @@
 
 /* Begin PBXFileReference section */
 		B931CB622BE879040040B9ED /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
-		B931CB642BE8799C0040B9ED /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B9A551F92BE5E65C009DA942 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		B9A551FB2BE5F8C5009DA942 /* Track1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Track1.mp3; sourceTree = "<group>"; };
 		B9FB74042BE5E258000024B7 /* ChessHero.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChessHero.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -62,7 +57,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B931CB6A2BE87A700040B9ED /* FirebaseAnalytics in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,7 +105,6 @@
 				B9FB740B2BE5E259000024B7 /* Assets.xcassets */,
 				B9A551F92BE5E65C009DA942 /* Login.swift */,
 				B9A551FB2BE5F8C5009DA942 /* Track1.mp3 */,
-				B931CB642BE8799C0040B9ED /* GoogleService-Info.plist */,
 				B9FB740D2BE5E259000024B7 /* Preview Content */,
 				B931CB622BE879040040B9ED /* Home.swift */,
 			);
@@ -160,7 +153,6 @@
 			);
 			name = ChessHero;
 			packageProductDependencies = (
-				B931CB692BE87A700040B9ED /* FirebaseAnalytics */,
 			);
 			productName = ChessHero;
 			productReference = B9FB74042BE5E258000024B7 /* ChessHero.app */;
@@ -235,7 +227,6 @@
 			);
 			mainGroup = B9FB73FB2BE5E258000024B7;
 			packageReferences = (
-				B931CB682BE87A700040B9ED /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 			);
 			productRefGroup = B9FB74052BE5E258000024B7 /* Products */;
 			projectDirPath = "";
@@ -254,7 +245,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B9FB740F2BE5E259000024B7 /* Preview Assets.xcassets in Resources */,
-				B931CB652BE8799C0040B9ED /* GoogleService-Info.plist in Resources */,
 				B9FB740C2BE5E259000024B7 /* Assets.xcassets in Resources */,
 				B9A551FC2BE5F8C5009DA942 /* Track1.mp3 in Resources */,
 			);
@@ -264,7 +254,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B931CB662BE879E80040B9ED /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +261,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B931CB672BE879E90040B9ED /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -620,25 +608,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		B931CB682BE87A700040B9ED /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 10.25.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		B931CB692BE87A700040B9ED /* FirebaseAnalytics */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = B931CB682BE87A700040B9ED /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseAnalytics;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B9FB73FC2BE5E258000024B7 /* Project object */;
 }
