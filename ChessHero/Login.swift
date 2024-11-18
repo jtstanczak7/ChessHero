@@ -6,7 +6,6 @@
 //
 
 import SwiftUI
-import AuthenticationServices
 import AVFoundation
 
 struct LoginPageView: View {
@@ -34,7 +33,7 @@ struct LoginPageView: View {
                         withAnimation(Animation.easeInOut(duration: 2).repeatForever(autoreverses: true)) {
                             logoScale = 1.1  // Adjust scale from 1.0 to 1.1, bounce effect
                         }
-                        playBackgroundMusic()
+                       // playBackgroundMusic() bg music
                     }
 
                 Button(action: { // Sign in button
